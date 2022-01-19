@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+ }
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+
+.title{
+    text-transform: uppercase;
+    color: var(--title);
+}
+
+.subtitle{
+    color: var(--subtitle);
+    font-weight: 400;
+}
+
+.block{
+    margin-bottom: 120px;
+}
+
+.button{
+    font-weight: 400;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-outline-primary{
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover{
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+.btn-outline-primary:hover{
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+.imagem{
+    max-width: 90%;
+}
+
+a{
+    color: var(--primary);
+}
+
+a:hover{
+    color: var(--secondary);
+}
+
+.phoenixImg{
+    -webkit-animation: fadeIn 3s ease-in-out;
+    -moz-animation: fadeIn 3s ease-in-out;
+    -o-animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: var(--primary);
+}
+
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(https://www.emphasizedesign.ca/wp-content/uploads/2016/10/Whats-a-Hamburger-Menu.png);
+}

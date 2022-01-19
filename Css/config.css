@@ -1,0 +1,24 @@
+:root{
+    --primary: #4b81c1;
+    --secondary: #1856a3;
+    --title: black;
+    --subtitle: rgb(34, 34, 34);
+    --light: rgb(212, 212, 212);
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
